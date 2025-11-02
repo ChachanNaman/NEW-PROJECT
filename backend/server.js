@@ -27,6 +27,7 @@ app.use('/api/books', require('./routes/books'));
 app.use('/api/series', require('./routes/series'));
 app.use('/api/ratings', require('./routes/ratings'));
 app.use('/api/search', require('./routes/search'));
+app.use('/api/powerbi', require('./routes/powerbi'));
 
 // Health check
 app.get('/api/health', (req, res) => {

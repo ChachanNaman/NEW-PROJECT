@@ -9,6 +9,7 @@ import Movies from './pages/Movies';
 import Songs from './pages/Songs';
 import Books from './pages/Books';
 import Series from './pages/Series';
+import Analytics from './pages/Analytics';
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
@@ -62,6 +63,11 @@ const AppRoutes = () => {
       <Route path="/series" element={
         <Layout>
           <Series />
+        </Layout>
+      } />
+      <Route path="/analytics" element={
+        <Layout>
+          <Analytics />
         </Layout>
       } />
     </Routes>

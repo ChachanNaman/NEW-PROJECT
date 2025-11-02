@@ -34,6 +34,7 @@ export const api = {
     trending: `${ML_API_BASE_URL}/trending`,
     similar: `${ML_API_BASE_URL}/similar`,
   },
+  powerbi: `${API_BASE_URL}/powerbi`,
 };
 
 export default api;

@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
     { path: '/songs', label: 'Songs', icon: '🎵' },
     { path: '/books', label: 'Books', icon: '📚' },
     { path: '/series', label: 'Web Series', icon: '📺' },
+    { path: '/analytics', label: 'Analytics', icon: '📊' },
   ];
 
   return (
